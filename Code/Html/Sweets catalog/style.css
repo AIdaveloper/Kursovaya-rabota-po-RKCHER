@@ -1,0 +1,133 @@
+h1 {
+    margin-top: 60px;
+    color: #432523;
+}
+h1>span{
+    white-space: nowrap;
+}
+
+article.main.sweets.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.categories.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 850px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 30px 40px;
+    border: 2px solid lightgrey;
+    border-radius: 5em;
+}
+.category{
+    cursor: pointer;
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: #7A4C66;
+    border-radius: 10em;
+    margin: 10px 5px;
+    color: white;
+    font-weight: 500;
+    transition: .2s;
+}
+.category.selected{
+    background-color: #BD87A5;
+    color: #22161c;
+}
+/*___________sweet box____________*/
+.sweets.box.in{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 20px;
+    padding-bottom: 50px;
+}
+
+
+/*______________sweet block _________________*/
+.sweet.block{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 340px;
+    height: 450px;
+    margin: 10px 10px;
+    padding: 30px 30px;
+    border: 2px solid lightgrey;
+    border-radius: 2em;
+}
+
+.sweet.block>.img{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+.sweet.block>.info.sweet{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    max-width: 250px;
+    height: 100%;
+    margin-top: 30px;
+}
+.info.sweet>*{
+    width: fit-content;
+}
+.info.sweet>.name{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.info.sweet>.price{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.info.sweet>.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #605aa2;
+    border-radius: 1em;
+}
+
+.sweet.block{
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s;
+}
+.sweet.block.enable{
+    display: none;
+}
+.sweet.block.visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.price:after{
+    content: '₽';
+    margin-left: .5em;
+}
+/*___________________________________*/
