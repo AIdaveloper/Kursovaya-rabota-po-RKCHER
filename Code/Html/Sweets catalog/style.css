@@ -131,3 +131,24 @@ article.main.sweets.box{
     margin-left: .5em;
 }
 /*___________________________________*/
+@media screen and (max-width: 1180px){
+    .category{
+        font-size: 30px;
+    }
+    .sweet.block{
+        width: 450px;
+        height: 550px;
+    }
+    .info.sweet>.name {
+        font-size: 30px;
+    }
+    .info.sweet>.price{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .info.sweet>.add{
+        font-size: 30px;
+        width: 200px;
+        height: 80px;
+    }
+}

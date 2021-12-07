@@ -198,7 +198,12 @@ header.none{
 main{
     padding-top: 120px;
     z-index: 0;
+    /*height: fit-content;
+    min-height: calc(100vh - 432px);*/
 }
+/*main{
+    min-height: calc(100vh - 432px);
+}*/
 /*______________________________________*/
 
 
