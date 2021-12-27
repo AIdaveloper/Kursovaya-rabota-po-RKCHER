@@ -134,13 +134,15 @@ article.main.sweets.box{
 @media screen and (max-width: 1180px){
     .category{
         font-size: 30px;
+        padding: 30px 40px;
     }
     .sweet.block{
         width: 450px;
-        height: 550px;
+        height: 620px;
     }
     .info.sweet>.name {
         font-size: 30px;
+        width: 300px;
     }
     .info.sweet>.price{
         margin-top: 30px;
@@ -148,7 +150,7 @@ article.main.sweets.box{
     }
     .info.sweet>.add{
         font-size: 30px;
-        width: 200px;
-        height: 80px;
+        width: 240px;
+        height: 100px;
     }
 }
